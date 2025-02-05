@@ -1,2 +1,6 @@
-<div *ngIf="isVisible; else elseBlock">Se ve locura</div>
-<ng-template #elseBlock>Contenido oculto</ng-template>
+<!----control flow syntax nuevo-->
+if (isVisible) {
+  <div> Se ve locura</div>
+}else{
+  <span>Contenido Oculto</span>
+}
