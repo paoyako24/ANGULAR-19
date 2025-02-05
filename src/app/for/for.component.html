@@ -1,1 +1,7 @@
-<p>for works!</p>
+<ul>
+  @for(name of names;track name){
+    <li>{{name}}</li>
+  }@empty {
+    <li>No Names</li>
+  }
+</ul>
